@@ -5,9 +5,9 @@ import Menu from './Components/menu';
 import HomePage from './Components/Home_Page'
 import AboutMe from './Components/About_Me';
 import EducationExperience from './Components/Education_Experience'
-import Skills from './Components/Skills'
+// import Skills from './Components/Skills'
 import Projects from './Components/Projects'
-import NavbarWebpage from './Components/Navbar';
+// import NavbarWebpage from './Components/Navbar';
 import {useEffect, useState} from 'react'
 
 function useWindowSize() {

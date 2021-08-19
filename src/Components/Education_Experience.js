@@ -9,14 +9,14 @@ function Education_Experience(){
     const [selectedRadio, setSelectedRadio] = useState("Both");
 
     return(
-        <div className="Education_Experience1" id="Education_Experience" >
+        <div className="Education_Experience1"  >
             <div data-aos="fade-right"
             data-aos-easing="ease-in-sine">
-                <h1 className="EducationExperienceTitle" >Education and Experience</h1>
+                <h1 className="EducationExperienceTitle" id="Education_Experience">Education and Experience</h1>
             </div>
             
 
-            <div className="RadioButtons">
+            <div className="RadioButtons" >
                 <FormControl component="fieldset" value={selectedRadio} onChange={(e) =>{
                     setSelectedRadio(e.target.value)
                 }}>

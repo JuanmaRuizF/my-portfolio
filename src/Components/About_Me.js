@@ -1,6 +1,5 @@
 import '../Styles/About_Me.css';
 import {Image, Col,Row} from 'react-bootstrap/'
-import {DiReact, DiPython} from 'react-icons/di';
 import 'aos/dist/aos.css';
 
 function AboutMe(){
