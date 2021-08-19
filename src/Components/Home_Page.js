@@ -31,7 +31,7 @@ function HomePage(){
               console.log(error.text);
           });
           e.target.reset()
-          alert("Your message has been sent. You will recieve an answer as soon as possible.")
+          alert("Your message has been sent. You will receive an answer as soon as possible.")
           handleClose()
       }
 
