@@ -3,12 +3,17 @@
         padding-right: 20px;
     }
     
+    a.otherButton {
+        color: #ffffff;
+    }
+    
     a:visited {
         color: #ffffff;
     }
     
     .emailButton {
         cursor: pointer;
+        /* background-color: #121825; */
     }
     /* .App {
     height: 100vh
@@ -27,3 +32,6 @@
     .DownloadButton {
         text-decoration: none;
     }
+    /* .otherButton {
+        background-color: #121825; 
+    } */

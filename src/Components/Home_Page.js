@@ -47,8 +47,8 @@ function HomePage(){
                 <table  data-aos="zoom-in" data-aos-duration="1500">
                     <tbody>
                         <tr>
-                            <th><a href="https://www.linkedin.com/in/juan-manuel-ruiz-fr%C3%A1nquiz-b227a2218/" target="blank"><ImLinkedin /> </a></th>
-                            <th><a href="https://github.com/JuanmaRuizF" target="blank"><ImGithub /> </a></th>
+                            <th><a href="https://www.linkedin.com/in/juan-manuel-ruiz-fr%C3%A1nquiz-b227a2218/" className="otherButton" target="blank"><ImLinkedin /> </a></th>
+                            <th><a href="https://github.com/JuanmaRuizF" className="otherButton" target="blank"><ImGithub /> </a></th>
                             <th onClick={handleShow} className="emailButton"> <ImMail/> </th>
                         </tr>
                     </tbody>
