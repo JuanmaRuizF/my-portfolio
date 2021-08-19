@@ -61,7 +61,7 @@ function ProjectsMenu(props){
                         <CardMedia
                             component="img"
                             height="220"
-                            image = {"Images/" + s["image"]}
+                            image = {"/my-portfolio/Images/" + s["image"]}
                             
                         />
                       <CardContent>
@@ -110,7 +110,7 @@ function ProjectsMenu(props){
                         <Carousel.Item>
                           <img
                             className="d-block w-100"
-                            src={"Images/" + i}
+                            src={"/my-portfolio/Images/" + i}
                             alt="First slide"
                           />
                           {/* <Carousel.Caption>
@@ -180,7 +180,7 @@ function ProjectsMenu(props){
                             <CardMedia
                                 component="img"
                                 height="220"
-                                image = {"Images/" + s["image"]}
+                                image = {"/my-portfolio/Images/" + s["image"]}
                                 
                             />
                           <CardContent>
@@ -233,7 +233,7 @@ function ProjectsMenu(props){
                       <Carousel.Item>
                         <img
                           className="d-block w-100"
-                          src={"Images/" + i}
+                          src={"/my-portfolio/Images/" + i}
                           alt="First slide"
                         />
                         {/* <Carousel.Caption>
