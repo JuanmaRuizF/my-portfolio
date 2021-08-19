@@ -1,0 +1,19 @@
+.containerMenu {
+    margin-top: 5%;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.Link {
+    color: black
+}
+
+a {
+    color: hotpink;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.Modal {}

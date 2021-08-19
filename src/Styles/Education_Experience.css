@@ -1,0 +1,20 @@
+.Education_Experience1 {
+    background-color: #10252b;
+    /* background-color: #a8ecd0; */
+    /* height: 100vh; */
+    color: white
+}
+
+.EducationExperienceTitle {
+    padding-top: 10%;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.RadioButtons {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}

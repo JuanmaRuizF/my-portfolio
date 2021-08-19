@@ -1,0 +1,29 @@
+    th,
+    td {
+        padding-right: 20px;
+    }
+    
+    a:visited {
+        color: #ffffff;
+    }
+    
+    .emailButton {
+        cursor: pointer;
+    }
+    /* .App {
+    height: 100vh
+} */
+    /* 
+.App {
+    box-shadow: 5px 10px #888888;
+} */
+    
+    .spanPrueba {
+        margin-right: 5%;
+        margin-top: 16%;
+        padding-top: 10%;
+    }
+    
+    .DownloadButton {
+        text-decoration: none;
+    }

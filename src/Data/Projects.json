@@ -1,0 +1,47 @@
+{
+    "Data": [{
+            "type": ["Web", "DataScience"],
+            "title": "New York realtime traffic prediction",
+            "short_description": "Create predictions about the status of traffic and visualize them in a webpage in realtime",
+            "long_description": "This was my end of degree project. It contains 2 modules: The first one is the one in charge of creating predictive models using New York's historical traffic, air quality and climate data. Once the models have been created, the module collects the new values for those data sources in realtime and uses them to make predictions. The predictions are saved into a JSON file that is accessed by the second module. As new data arrives, the module will compare the results from the predictions and the real values. This is used to train in realtime the models. The predictions are made for each of the 26 streets where data is collected (data only collected for the Manhattan district). The second module is a webpage where the data is represented in graphs according to the time or street selected. It also shows a comparison between the real values and the predictions. As the first module generates and collects new data in realtime, this data will be automatically displayed to the webpage.",
+            "icons": ["DiPython", "SiTensorflow", "SiJupyter", "DiReact"],
+            "image": "NY-Traffic-Prediction/NY-Traffic-Prediction.JPG",
+            "id": 0,
+            "extra_images": ["NY-Traffic-Prediction/Img1.png", "NY-Traffic-Prediction/Img2.png", "NY-Traffic-Prediction/Img3.png", "NY-Traffic-Prediction/Img4.png", "NY-Traffic-Prediction/Img5.png"],
+            "github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
+            "deploy_url": [""],
+            "offset": "100",
+            "list_technologies": ["Python (Numpy, Pandas, Threading, Matplotlib)", "Tensorflow", "React", "Jupyter Lab", "Bootstrap"],
+            "project_characteristics": ["Generate predictive models for each of the streets where data is collected", "Generate predictions in realtime as new data arrives", "Retrain the models in realtime with the new data", "Visualize overall status of traffic", "Visualize traffic in a certain hour", "Visualize traffic (real values and predictions) for the selected street", "Visualize the comparison between the prediction values and the real ones", "Visualize the error between real and prediction values for each hour in a certain street"]
+        }, {
+            "type": ["Web"],
+            "title": "Dulce Capricho",
+            "short_description": "A website for a confectionery shop",
+            "long_description": "A webpage created for a confectionery shop. It contains a wide variety of pages such as 'encargos' (orders), 'eventos' (events) and many more. This webpage allows the user to select the products available and customize the order with the quantity and flavours of each of the products. Once a product has been selected, it will be added to a shopping cart. The order will be completed when the user fills in a form with user information. The webpage also contains an administrator mode in which the administrator is capable of editing elements of the main webpage and visualizing the orders or the contact forms.",
+            "icons": ["DiRubyRough", "DiMysql"],
+            "image": "DulceCapricho/DulceCapricho.JPG",
+            "id": 1,
+            "extra_images": ["DulceCapricho/Img1.JPG", "DulceCapricho/Img2.JPG", "DulceCapricho/Img3.JPG", "DulceCapricho/Img4.JPG", "DulceCapricho/Img5.JPG", "DulceCapricho/Img6.JPG", "DulceCapricho/Img7.JPG"],
+            "github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
+            "deploy_url": [""],
+            "offset": "200",
+            "list_technologies": ["Ruby on Rails", "MySQL", "Bootstrap"],
+            "project_characteristics": ["Select products and add them to the basket in the 'encargos' page", "Access and send the order after completing the form", "Server side where the administrator can change and edit components such as the images to display in the webpage", "Administrator can also visualize the orders and the contact messages sent within the server side"]
+        },
+        {
+            "type": ["Web"],
+            "title": "ToDo List",
+            "short_description": "ToDoList implemented using AngularJS",
+            "long_description": "A project where you can create, modify, see and delete tasks. This tasks contain information about the date when the task was created, the due date, the task name and the description of the task.",
+            "icons": ["DiAngularSimple", "SiFirebase"],
+            "image": "ToDoList/ToDOList.JPG",
+            "id": 2,
+            "offset": "300",
+            "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
+            "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
+            "deploy_url": ["https://daw2-todolist.web.app/list"],
+            "list_technologies": ["Angular", "Firebase", "Angular Material UI"],
+            "project_characteristics": ["CRUD of tasks (Create, Read, Update, Delete)", "Task changes color when the due date has passed", "Change the status of each task", "See a historical with all the finished tasks"]
+        }
+    ]
+}
