@@ -39,26 +39,25 @@ function HomePage(){
 
         <div  id="HomePage">
             <div className="App-header">
-                <h1  data-aos="zoom-in" data-aos-duration="1500">
+                <h1  data-aos="zoom-in" data-aos-duration="1500" className="minombre">
                 Juan Manuel Ruiz Fránquiz
                 </h1>
-                {/* <h5  data-aos="zoom-in" data-aos-duration="1500">Software Engineer</h5> */}
 
                 <table  data-aos="zoom-in" data-aos-duration="1500">
                     <tbody>
                         <tr>
-                            <th><a href="https://www.linkedin.com/in/juan-manuel-ruiz-fr%C3%A1nquiz-b227a2218/" className="otherButton" target="blank"><ImLinkedin /> </a></th>
-                            <th><a href="https://github.com/JuanmaRuizF" className="otherButton" target="blank"><ImGithub /> </a></th>
-                            <th onClick={handleShow} className="emailButton"> <ImMail/> </th>
+                            <th><a href="https://www.linkedin.com/in/juan-manuel-ruiz-fr%C3%A1nquiz-b227a2218/" className="otherButton" target="blank"><ImLinkedin size="1.5em" /> </a></th>
+                            <th><a href="https://github.com/JuanmaRuizF" className="otherButton" target="blank"><ImGithub size="1.5em"/> </a></th>
+                            <th onClick={handleShow} className="emailButton"> <ImMail size="1.5em"/> </th>
                         </tr>
                     </tbody>
 
                 </table>
 
-                <table  data-aos="zoom-in" data-aos-duration="1500">
+                <table  data-aos="zoom-in" data-aos-duration="1500" className="downloadCV">
                     <tbody>
                         <tr>
-                            <th><a href="/my-portfolio/JuanManuelRuizCV.pdf" target="_blank"><Button variant="outline-light">Download CV</Button>{' '}</a></th>
+                            <th><a href="/my-portfolio/JuanManuelRuizCV.pdf" target="_blank"><Button variant="outline-light"><div className="botonCV">Download CV</div></Button>{' '}</a></th>
                         </tr>
                     </tbody>
                 </table>

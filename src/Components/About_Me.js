@@ -8,18 +8,10 @@ function AboutMe(){
         <div className="AboutMe" id="AboutMe">
             <h1 className="titleH1">About me</h1>
 
-            {/* <table>
-                <tbody>
-                    <tr>
-            
-                        <th className="aboutMeInfoColumn">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</th>
-                    </tr>
-                </tbody>
-            </table>
-            <button onClick={handleShow}>ddd</button> */}
-            <Row className="aboutMeInfo">
+
+            <div className="aboutMeInfo">
+            <Row>
                 <Col md={6} sm={12} xs={12} lg={4} xl={4}>
-                    <span></span>
                     <div className="my-image">
                         <Image src="/my-portfolio/foto-mia.JPG" roundedCircle  width="200" height="200"/>
                     </div>
@@ -30,9 +22,7 @@ function AboutMe(){
                     <p>My two biggest interests in computer science are web development and data science. As part of my final degree project, I had the opportunity to develop a project that merged these two areas. It was a very fulfilling experience which helped me expand my knowledge in these two fields. With eyes set on the future, I am excited to learn about the areas mentioned or about any new fields or technologies that the future of computer science has to offer.</p>
                 </Col>
             </Row>
-            <div className="aboutMeInfo">
                 <h3 id="Skills">Skills</h3>
-
             
                 <Row className="firstRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                     <Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
