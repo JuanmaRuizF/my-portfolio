@@ -7,7 +7,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import {useState} from 'react'
 import {Modal, Carousel} from 'react-bootstrap/'
 import {Grid, Typography, Button, CardMedia, CardContent, CardActions, Card} from '@material-ui/core/'
-// import Img from '../Images/present.png'
 import {ImGithub} from 'react-icons/im';
 import {GrDeploy} from 'react-icons/gr';
  

@@ -34,7 +34,7 @@
             "short_description": "ToDoList implemented using AngularJS",
             "long_description": "A project where you can create, modify, see and delete tasks. This tasks contain information about the date when the task was created, the due date, the task name and the description of the task.",
             "icons": ["DiAngularSimple", "SiFirebase"],
-            "image": "ToDoList/ToDOList.JPG",
+            "image": "ToDoList/ToDoList.JPG",
             "id": 2,
             "offset": "300",
             "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],

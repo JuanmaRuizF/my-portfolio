@@ -1,11 +1,8 @@
 
 import { ImLinkedin, ImGithub, ImMail} from 'react-icons/im';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
-import Form from 'react-bootstrap/Form'
+import {Modal, Button, Form} from 'react-bootstrap/'
 import '../Styles/HomePage.css'
-// import Modal from 'react-modal';
 import React from 'react';
 import { useState } from "react";
 import emailjs from 'emailjs-com';
@@ -14,9 +11,7 @@ import 'aos/dist/aos.css';
 
 function HomePage(){
 
-
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
