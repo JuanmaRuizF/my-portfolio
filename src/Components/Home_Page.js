@@ -52,7 +52,7 @@ function HomePage(){
                 <table  data-aos="zoom-in" data-aos-duration="1500" className="downloadCV">
                     <tbody>
                         <tr>
-                            <th><a href="/my-portfolio/JuanManuelRuizCV-Ingles.pdf" target="_blank"><Button variant="outline-light"><div className="botonCV">Download CV</div></Button>{' '}</a></th>
+                            <th><a href="/my-portfolio/JuanManuelRuizCV-Eng.pdf" target="_blank"><Button variant="outline-light"><div className="botonCV">Download CV</div></Button>{' '}</a></th>
                         </tr>
                     </tbody>
                 </table>
