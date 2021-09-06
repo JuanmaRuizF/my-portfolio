@@ -11,8 +11,8 @@
             "github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
             "deploy_url": [""],
             "offset": "100",
-            "list_technologies": ["Python (Numpy, Pandas, Threading, Matplotlib)", "Tensorflow", "React", "Jupyter Lab", "Bootstrap"],
-            "project_characteristics": ["Generate predictive models for each of the streets where data is collected", "Generate predictions in realtime as new data arrives", "Retrain the models in realtime with the new data", "Visualize overall status of traffic", "Visualize traffic in a certain hour", "Visualize traffic (real values and predictions) for the selected street", "Visualize the comparison between the prediction values and the real ones", "Visualize the error between real and prediction values for each hour in a certain street"]
+            "list_technologies": ["Python (Numpy, Pandas, Threading, Matplotlib).", "Tensorflow.", "React.", "Jupyter Lab.", "Bootstrap."],
+            "project_characteristics": ["Generate predictive models for each of the streets where data is collected.", "Generate predictions in realtime as new data arrives.", "Retrain the models in realtime with the new data.", "Visualize overall status of traffic.", "Visualize traffic in a certain hour.", "Visualize traffic (real values and predictions) for the selected street.", "Visualize the comparison between the prediction values and the real ones.", "Visualize the error between real and prediction values for each hour in a certain street."]
         }, {
             "type": ["Web"],
             "title": "Dulce Capricho",
@@ -25,8 +25,8 @@
             "github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
             "deploy_url": [""],
             "offset": "200",
-            "list_technologies": ["Ruby on Rails", "MySQL", "Bootstrap"],
-            "project_characteristics": ["Select products and add them to the basket in the 'encargos' page", "Access and send the order after completing the form", "Server side where the administrator can change and edit components such as the images to display in the webpage", "Administrator can also visualize the orders and the contact messages sent within the server side"]
+            "list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
+            "project_characteristics": ["Select products and add them to the basket in the 'encargos' page.", "Access and send the order after completing the form.", "Server side where the administrator can change and edit components such as the images to display in the webpage.", "Administrator can also visualize the orders and the contact messages sent within the server side."]
         },
         {
             "type": ["Web"],
@@ -40,8 +40,8 @@
             "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
             "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
             "deploy_url": ["https://daw2-todolist.web.app/list"],
-            "list_technologies": ["Angular", "Firebase", "Angular Material UI"],
-            "project_characteristics": ["CRUD of tasks (Create, Read, Update, Delete)", "Task changes color when the due date has passed", "Change the status of each task", "See a historical with all the finished tasks"]
+            "list_technologies": ["Angular.", "Firebase.", "Angular Material UI."],
+            "project_characteristics": ["CRUD of tasks (Create, Read, Update, Delete).", "Task changes color when the due date has passed.", "Change the status of each task.", "See a historical with all the finished tasks."]
         }
     ]
 }

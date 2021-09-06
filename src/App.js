@@ -29,27 +29,27 @@ function useWindowSize() {
 
 function App() {
 
+  const [language, setLanguage] = useState("English")
   AOS.init();
   const size = useWindowSize();
   if (size["width"] > 1800){
     return (
       <div>
-        <Menu></Menu>
-        <HomePage></HomePage>
-        <AboutMe></AboutMe>
-        <EducationExperience></EducationExperience>
-        <Projects></Projects>
+        <Menu language={language} ></Menu>
+        <HomePage language={language} setLanguage={setLanguage}></HomePage>
+        <AboutMe language={language}></AboutMe>
+        <EducationExperience language={language}></EducationExperience>
+        <Projects language={language}></Projects>
       </div>
     );
 
   }else{
     return (
       <div className="mobile">
-        <HomePage></HomePage>
-        <AboutMe></AboutMe>
-        <EducationExperience></EducationExperience>
-        <Projects></Projects>
-
+        <HomePage language={language} setLanguage={setLanguage}></HomePage>
+        <AboutMe language={language}></AboutMe>
+        <EducationExperience language={language}></EducationExperience>
+        <Projects language={language}></Projects>
       </div>
     );
 

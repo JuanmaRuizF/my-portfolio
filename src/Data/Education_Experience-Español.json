@@ -1,0 +1,51 @@
+{
+    "Data": [{
+            "type": "Education",
+            "colors": "rgb(33, 150, 243)",
+            "date": "2021",
+            "title": "Finalización grado universitario",
+            "subtitle": "Universidad de Las Palmas de Gran Canaria",
+            "description": "Finalicé mi grado en Ingeniería Informática con una intensificación en Tecnologías de la Información."
+        },
+        {
+            "type": "Experience",
+            "colors": "rgb(199, 125, 28)    ",
+            "date": "2020",
+            "title": "Prácticas en empresa",
+            "subtitle": "Secret Source",
+            "description": "Hice las prácticas en empresa en Secret Source, donde aprendí tecnologías como Sass y React mientras trabajaba con una metodología SCRUM."
+        },
+        {
+            "type": "Education",
+            "colors": "rgb(33, 150, 243)",
+            "date": "2019-2020",
+            "title": "ERASMUS",
+            "subtitle": "AGH Universidad de Ciencia y Tecnología",
+            "description": "Estudié el tercer año del grado en Ingeniería Informática en Cracovia, Polonia como parte del programa ERASMUS."
+        },
+        {
+            "type": "Education",
+            "colors": "rgb(33, 150, 243)",
+            "date": "2017",
+            "title": "Comienzo de los estudios universitarios",
+            "subtitle": "Universidad de Las Palmas de Gran Canaria",
+            "description": "Comencé mis estudios universitarios en el grado en Ingeniería Informática."
+        },
+        {
+            "type": "Education",
+            "colors": "rgb(33, 150, 243)",
+            "date": "2015-2017",
+            "title": "Bachillerato",
+            "subtitle": "IES Profesor Juan Pulido Castro",
+            "description": "Finalicé el bachillerato científico-tecnológico"
+        },
+        {
+            "type": "Education",
+            "colors": "rgb(33, 150, 243)",
+            "date": "2005-2015",
+            "title": "ESO",
+            "subtitle": "British School of Gran Canaria",
+            "description": "Estudié toda mi educación obligatoria en este centro bilingüe, incluyendo la realización de la prueba 'IGCSE' del sistema de educación inglés al finalizar la ESO."
+        }
+    ]
+}

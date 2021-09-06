@@ -1,0 +1,47 @@
+{
+    "Data": [{
+            "type": ["Web", "DataScience"],
+            "title": "Predicciones en tiempo real para el tráfico en Nueva York.",
+            "short_description": "Generación de predicciones en tiempo real sobre el estado del tráfico en Nueva York y visualización de ellas en una página web.",
+            "long_description": "Este fue mi proyecto de fin de título. Contiene 2 módulos: El primero es el encargado de crear modelos predictivos utilizando los datos históricos de tráfico, calidad del aire y clima de Nueva York. Una vez que se han creado los modelos, el módulo recopila los nuevos valores para esas fuentes de datos en tiempo real y los usa para hacer predicciones. Las predicciones se guardan en un archivo JSON al que accede el segundo módulo. A medida que lleguen nuevos datos, el módulo comparará los resultados de las predicciones y los valores reales. Se utiliza para reentrenar en tiempo real los modelos. Las predicciones se realizan para cada una de las 26 calles donde se recopilan los datos (solo se recopilan datos para el distrito de Manhattan). El segundo módulo es una página web donde se representan los datos en gráficos según la hora o calle seleccionada. También muestra una comparación entre los valores reales y las predicciones. A medida que el primer módulo genera y recopila nuevos datos en tiempo real, estos datos se mostrarán automáticamente en la página web.",
+            "icons": ["DiPython", "SiTensorflow", "SiJupyter", "DiReact"],
+            "image": "NY-Traffic-Prediction/NY-Traffic-Prediction.JPG",
+            "id": 0,
+            "extra_images": ["NY-Traffic-Prediction/Img1.png", "NY-Traffic-Prediction/Img2.png", "NY-Traffic-Prediction/Img3.png", "NY-Traffic-Prediction/Img4.png", "NY-Traffic-Prediction/Img5.png"],
+            "github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
+            "deploy_url": [""],
+            "offset": "100",
+            "list_technologies": ["Python (Numpy, Pandas, Threading, Matplotlib).", "Tensorflow.", "React.", "Jupyter Lab.", "Bootstrap."],
+            "project_characteristics": ["Generación de modelos predictivos para cada una de las calles donde se recolectan datos.", "Generación de predicciones en tiempo real a medida que llegan nuevos datos.", "Reentreno de los modelos en tiempo real con los datos nuevos.", "Visualización general del tráfico para la hora actual en Nueva York.", "Visualización del tráfico por hora.", "Visualización del tráfico (valores reales y predicciones) para la calle seleccionada.", "Visualización de la comparación entre los valores reales y las predicciones generadas por los modelos.", "Visualiza el error entre los valores reales y las predicciones para cada hora en cada una de las calles."]
+        }, {
+            "type": ["Web"],
+            "title": "Dulce Capricho",
+            "short_description": "Página web para una dulcería.",
+            "long_description": "Una página web creada para una dulcería. Contiene una amplia variedad de páginas como encargos, eventos y muchas más. Esta página web permite al usuario seleccionar los productos disponibles y personalizar el pedido con la cantidad y sabores de cada uno de los productos. Una vez se ha seleccionado un producto, se agregará a un carrito de compra. El pedido se completará cuando el usuario complete un formulario con la información del usuario. La página web también contiene un modo de administrador en el que el administrador es capaz de editar elementos de la página web principal y visualizar los pedidos que se han hecho o los formularios de contacto.",
+            "icons": ["DiRubyRough", "DiMysql"],
+            "image": "DulceCapricho/DulceCapricho.JPG",
+            "id": 1,
+            "extra_images": ["DulceCapricho/Img1.JPG", "DulceCapricho/Img2.JPG", "DulceCapricho/Img3.JPG", "DulceCapricho/Img4.JPG", "DulceCapricho/Img5.JPG", "DulceCapricho/Img6.JPG", "DulceCapricho/Img7.JPG"],
+            "github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
+            "deploy_url": [""],
+            "offset": "200",
+            "list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
+            "project_characteristics": ["Seleccionar productos y añadirlos a un carrito de compra en la página de 'encargos'.", "Acceder y enviar el pedido tras completar el formulario.", "Lado servidor en el que el administrador puede cambiar y editar componentes como las imágenes a mostrar en la página web.", "El administrador puede visualizar también en el lado servidor los pedidos y los mensajes de contacto que han enviado los clientes."]
+        },
+        {
+            "type": ["Web"],
+            "title": "ToDo List",
+            "short_description": "Una ToDoList creada utilizando AngularJS",
+            "long_description": "Un proyecto donde puedes crear, modificar, ver y borrar tareas. Estas tareas contienen información sobre la fecha en que se creó la tarea, la fecha de vencimiento, el nombre y la descripción de la tarea.",
+            "icons": ["DiAngularSimple", "SiFirebase"],
+            "image": "ToDoList/ToDoList.JPG",
+            "id": 2,
+            "offset": "300",
+            "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
+            "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
+            "deploy_url": ["https://daw2-todolist.web.app/list"],
+            "list_technologies": ["Angular.", "Firebase.", "Angular Material UI."],
+            "project_characteristics": ["CRUD de las tareas (Create, Read, Update, Delete).", "Las tareas cambian de color si ya ha pasado la fecha límite puesta.", "Cambiar el estado de cada tarea.", "Ver un historial con todas las tareas finalizadas."]
+        }
+    ]
+}
