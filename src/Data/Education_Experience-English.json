@@ -5,15 +5,15 @@
             "date": "2021",
             "title": "Finished University",
             "subtitle": "University of Las Palmas de Gran Canaria",
-            "description": "Finished my Computer Science degree with intensification in Information Technologies."
+            "description": "Finished my Computer Science degree with intensification in Information Technologies. My end of degree project was graded 9.7/10 with honors."
         },
         {
             "type": "Experience",
-            "colors": "rgb(50, 200, 200)",
+            "colors": "rgb(199, 125, 28)",
             "date": "2020",
             "title": "Internship",
             "subtitle": "Secret Source",
-            "description": "I did my university internship in Secret Source, where I learnt technologies such as Sass and React while working in a SCRUM environment."
+            "description": "I did my university internship in Secret Source, where I learnt technologies such as Sass and React working in a project for a customer in the UK. We worked in a SCRUM environment."
         },
         {
             "type": "Education",

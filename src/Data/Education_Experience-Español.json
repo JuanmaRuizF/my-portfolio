@@ -5,7 +5,7 @@
             "date": "2021",
             "title": "Finalización grado universitario",
             "subtitle": "Universidad de Las Palmas de Gran Canaria",
-            "description": "Finalicé mi grado en Ingeniería Informática con una intensificación en Tecnologías de la Información."
+            "description": "Finalicé mi grado en Ingeniería Informática con una intensificación en Tecnologías de la Información. Nota del trabajo final de título: 9.7/10 (Matrícula de honor)"
         },
         {
             "type": "Experience",
@@ -13,7 +13,7 @@
             "date": "2020",
             "title": "Prácticas en empresa",
             "subtitle": "Secret Source",
-            "description": "Hice las prácticas en empresa en Secret Source, donde aprendí tecnologías como Sass y React mientras trabajaba con una metodología SCRUM."
+            "description": "Hice las prácticas en empresa en Secret Source, donde aprendí tecnologías como Sass y React trabajando en un proyecto para un cliente en el Reino Unido. Trabajamos bajo una metodología SCRUM."
         },
         {
             "type": "Education",

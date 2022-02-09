@@ -118,6 +118,7 @@ function HorizontalTimeline(props) {
         </VerticalTimeline>
       );
     }
+    //ESPAÑOL
   } else {
     if (props.selectedRadio === "Experience") {
       return (
@@ -149,7 +150,6 @@ function HorizontalTimeline(props) {
         </VerticalTimeline>
       );
     } else if (props.selectedRadio === "Education") {
-      console.log(props.selectedRadio);
       return (
         <VerticalTimeline>
           {dataSpanish.Data.map((s) => {
