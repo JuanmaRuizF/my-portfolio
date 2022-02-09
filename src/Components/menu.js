@@ -60,7 +60,7 @@ function menu(props){
                 <div class="container right">
                     <Link to="AboutMe" smooth={false} duration={1750}>
                         <div class="content">
-                        Sobre mi
+                        Sobre mí
                         </div>
                     </Link>
                 </div>

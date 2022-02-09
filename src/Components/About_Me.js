@@ -25,7 +25,7 @@ function AboutMe(props){
                         <p>Mis dos mayores intereses en informática son el desarrollo web y la ciencia de datos. Como parte de mi proyecto de fin de carrera, tuve la oportunidad de desarrollar un proyecto que fusionaba estas dos áreas. Fue una experiencia muy gratificante que me ayudó a ampliar mis conocimientos en estos dos campos. Pensando en el futuro, estoy emocionado de aprender sobre las áreas mencionadas o sobre los nuevos campos o tecnologías que vayan surgiendo.</p>
         </Col>
 
-        titulo = <h1 className="titleH1">Sobre mi</h1>
+        titulo = <h1 className="titleH1">Sobre mí</h1>
 
         skills = <h3 id="Skills">Habilidades</h3>
     }
