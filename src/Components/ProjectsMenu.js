@@ -223,7 +223,12 @@ function ProjectsMenu(props) {
                       data-aos-offset={s["offset"]}
                       data-aos-duration="1000"
                     >
-                      <Card className={classes.root}>
+                      <Card
+                        className={classes.root}
+                        onClick={() => {
+                          ShowModal(s["id"]);
+                        }}
+                      >
                         <CardMedia
                           component="img"
                           height="220"
@@ -372,7 +377,12 @@ function ProjectsMenu(props) {
                     data-aos-offset={s["offset"]}
                     data-aos-duration="1000"
                   >
-                    <Card className={classes.root}>
+                    <Card
+                      className={classes.root}
+                      onClick={() => {
+                        ShowModal(s["id"]);
+                      }}
+                    >
                       <CardMedia
                         component="img"
                         height="220"
