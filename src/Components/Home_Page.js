@@ -35,7 +35,7 @@ function HomePage(props) {
     submitMessage = "Submit";
     curriculumLink = (
       <th>
-        <a href="/my-portfolio/JuanManuelRuizCV-Eng.pdf" target="_blank">
+        <a href="/my-portfolio/CVJuanma-English.pdf" target="_blank">
           <Button variant="outline-light">
             <div className="botonCV">{downloadTag}</div>
           </Button>{" "}
@@ -52,7 +52,7 @@ function HomePage(props) {
     submitMessage = "Enviar";
     curriculumLink = (
       <th>
-        <a href="/my-portfolio/JuanManuelRuizCV-Esp.pdf" target="_blank">
+        <a href="/my-portfolio/CVJuanma-Español.pdf" target="_blank">
           <Button variant="outline-light">
             <div className="botonCV">{downloadTag}</div>
           </Button>{" "}
