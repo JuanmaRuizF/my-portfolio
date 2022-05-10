@@ -42,6 +42,20 @@
             "offset": "200",
             "list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
             "project_characteristics": ["Select products and add them to the basket in the 'encargos' page.", "Access and send the order after completing the form.", "Server side where the administrator can change and edit components such as the images to display in the webpage.", "Administrator can also visualize the orders and the contact messages sent within the server side."]
+        }, {
+            "type": ["Web"],
+            "title": "Location Advisor",
+            "short_description": "Display the best places to visit/go near the location you are at or any location you choose.",
+            "long_description": "Webpage where you can select and query the best local places around the location provided. You can select the number of elements to return, the maximum radious of places to return, how the elements should be sorted and the location. You can favourite/unfavourite elements and view them also with their details. The data is obtained from several of the Foursquare API endpoints.",
+            "icons": ["DiReact", "SiReactrouter", "SiLeaflet"],
+            "image": "Location-Advisor/Img1.PNG",
+            "id": 3,
+            "extra_images": ["Location-Advisor/Img1.PNG", "Location-Advisor/Img2.PNG", "Location-Advisor/Img3.PNG", "Location-Advisor/Img4.PNG"],
+            "github_url": "https://github.com/JuanmaRuizF/location-advisor",
+            "deploy_url": ["https://juanmaruizf.github.io/location-advisor/#/"],
+            "offset": "300",
+            "list_technologies": ["React", "React Router", "Leaflet"],
+            "project_characteristics": ["Enable the webpage to access your current location and to view the closest places.", "Select the number of elements to display, how they should be sorted, location and the radious of search.", "View the list of searched elements with their details (includes a Leaflet map with the exact location of the place, pictures and other relevant information).", "Favourite any of the places and view them in a separate page.", "Frontend query validation to check if all fields are completed before doing the query."]
         },
         {
             "type": ["Web"],
@@ -50,8 +64,8 @@
             "long_description": "A project where you can create, modify, see and delete tasks. This tasks contain information about the date when the task was created, the due date, the task name and the description of the task.",
             "icons": ["DiAngularSimple", "SiFirebase"],
             "image": "ToDoList/ToDoList.JPG",
-            "id": 3,
-            "offset": "300",
+            "id": 4,
+            "offset": "400",
             "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
             "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
             "deploy_url": ["https://daw2-todolist.web.app/list"],

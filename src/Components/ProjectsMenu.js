@@ -14,6 +14,7 @@ import {
   SiFirebase,
   SiTensorflow,
   SiReactrouter,
+  SiLeaflet,
 } from "react-icons/si";
 import { makeStyles } from "@material-ui/core/styles";
 import { useState } from "react";
@@ -52,6 +53,7 @@ function ProjectsMenu(props) {
     SiFirebase: SiFirebase,
     SiTensorflow: SiTensorflow,
     SiReactrouter: SiReactrouter,
+    SiLeaflet: SiLeaflet,
   };
   var IconComponent = components["DiPython"];
 

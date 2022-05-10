@@ -41,6 +41,20 @@
             "offset": "200",
             "list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
             "project_characteristics": ["Seleccionar productos y añadirlos a un carrito de compra en la página de 'encargos'.", "Acceder y enviar el pedido tras completar el formulario.", "Lado servidor en el que el administrador puede cambiar y editar componentes como las imágenes a mostrar en la página web.", "El administrador puede visualizar también en el lado servidor los pedidos y los mensajes de contacto que han enviado los clientes."]
+        }, {
+            "type": ["Web"],
+            "title": "Location Advisor",
+            "short_description": "Mostrar los mejores sitios para visitar/ir en la zona en la que estás o cualquier otra localización que quieras.",
+            "long_description": "Página web donde puedes seleccionar y filtrar los mejores sitios locales de la zona que desees. Puedes seleccionar el número de elementos a devolver, el radio máximo de elementos a mostrar, como ordenar los elementos y la localización que se desee. Se pueden añadir y eliminar elementos a favoritos y verlos en una página aparte con todos sus detalles. Los datos son obtenidos de varios 'endpoints' de la API de Foursquare.",
+            "icons": ["DiReact", "SiReactrouter", "SiLeaflet"],
+            "image": "Location-Advisor/Img1.PNG",
+            "id": 3,
+            "extra_images": ["Location-Advisor/Img1.PNG", "Location-Advisor/Img2.PNG", "Location-Advisor/Img3.PNG", "Location-Advisor/Img4.PNG"],
+            "github_url": "https://github.com/JuanmaRuizF/location-advisor",
+            "deploy_url": ["https://juanmaruizf.github.io/location-advisor/#/"],
+            "offset": "300",
+            "list_technologies": ["React", "React Router", "Leaflet"],
+            "project_characteristics": ["Pedir permiso para acceder a la geolocalización del usuario y poder mostrarle los sitios más cercanos que tenga.", "Poder escoger el número de elementos a mostrar, cómo deberían ser ordenados, la localización y el radio de búsqueda.", "Ver el listado con de los elementos buscados con sus detalles (en los detalles se incluye la localización exacta del sitio en un mapa de Leaflet, imágenes y más información relevante acerca del sitio).", "Añadir sitios a favoritos y visualizar los elementos favoritos en una página aparte.", "Validación en el frontend para comprobar si todos los campos han sido rellenados."]
         },
         {
             "type": ["Web"],
@@ -49,8 +63,8 @@
             "long_description": "Un proyecto donde puedes crear, modificar, ver y borrar tareas. Estas tareas contienen información sobre la fecha en que se creó la tarea, la fecha de vencimiento, el nombre y la descripción de la tarea.",
             "icons": ["DiAngularSimple", "SiFirebase"],
             "image": "ToDoList/ToDoList.JPG",
-            "id": 3,
-            "offset": "300",
+            "id": 4,
+            "offset": "400",
             "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
             "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
             "deploy_url": ["https://daw2-todolist.web.app/list"],
