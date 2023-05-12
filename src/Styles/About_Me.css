@@ -84,18 +84,3 @@ ul li ul li ul li::marker {
     --hue: 100;
 }
 
-
-/* li:nth-child(2)::marker {
-    --hue: 50;
-    font-size: 2.5em;
-}
-
-li:nth-child(3)::marker {
-    --hue: 100;
-    font-size: 1.65em;
-}
-
-li:nth-child(4)::marker {
-    --hue: 00;
-    font-size: 1.5em;
-} */
