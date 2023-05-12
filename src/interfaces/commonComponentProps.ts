@@ -1,3 +1,3 @@
-export interface IProps  {
-    language: string;
+export interface IProps {
+	language: "English" | "Spanish";
 }
