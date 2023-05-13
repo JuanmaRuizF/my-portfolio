@@ -10,32 +10,29 @@ const AboutMe: React.FC<IProps> = (props) => {
 	const translations =
 		language === "English"
 			? {
-					myDescriptionP1: `I was born and raised in the island of Gran Canaria (Spain), which is located near the west coast of Africa.
+					myDescriptionP1: `I was born and raised in the island of Gran Canaria (Spain).
 					Here I completed all my education, from primary school to university. At university, I studied a degree in
 					Computer Science, with intensification in Information Technologies. During the third year of university, I
-					moved to Kraków, Poland, as part of the ERASMUS program to study there for the 2019-2020 academic year. 
+					moved to Kraków, Poland, as part of the ERASMUS program. 
          `,
-					myDescriptionP2: `My two biggest interests in computer science are web development and data science. As part of my final degree
+					myDescriptionP2: `I really enjoy learning new things. Currently, my 2 biggest interests are web development and data science. As part of my final degree
 					project, I had the opportunity to develop a project that merged these two areas. It was a very fulfilling
-					experience which helped me expand my knowledge in these two fields. With eyes set on the future, I am excited
-					to learn about the areas mentioned or about any new fields or technologies that the future of computer science
-					has to offer.`,
+					experience which helped me expand my knowledge in these two fields. I am currently working as a Software Developer at Arup Madrid. In my free time I like
+					to learn about the topics mentioned above or new technologies.`,
 					title: "About me",
 					tech: "Tech Stack",
 					skills: "Soft Skills",
 			  }
 			: {
-					myDescriptionP1: `Nací y crecí en la isla de Gran Canaria (España), que se encuentra cerca de la costa oeste de África. Aquí
+					myDescriptionP1: `Nací y crecí en la isla de Gran Canaria (España). Aquí
 					completé toda mi educación, desde la educación primaria hasta la universidad. En la universidad estudié el
 					Grado en Ingeniería Informática, con intensificación en Tecnologías de la Información. Durante el tercer año
-					de la universidad, me mudé a Cracovia, Polonia, como parte del programa ERASMUS para estudiar allí durante el
-					año académico 2019-2020.
+					de la universidad, me mudé a Cracovia, Polonia, como parte del programa ERASMUS.
          `,
-					myDescriptionP2: `Mis dos mayores intereses en informática son el desarrollo web y la ciencia de datos. Como parte de mi
+					myDescriptionP2: `Me gusta mucho aprender cosas nuevas. Mis dos mayores intereses son el desarrollo web y la ciencia de datos. Como parte de mi
 					proyecto de fin de carrera, tuve la oportunidad de desarrollar un proyecto que fusionaba estas dos áreas. Fue
-					una experiencia muy gratificante que me ayudó a ampliar mis conocimientos en estos dos campos. Pensando en el
-					futuro, estoy emocionado de aprender sobre las áreas mencionadas o sobre los nuevos campos o tecnologías que
-					vayan surgiendo.`,
+					una experiencia muy gratificante que me ayudó a ampliar mis conocimientos en estos dos campos. En la actualidad stoy trabajando como desarrollador de Software en Arup Madrid. En mi tiempo libre
+					me gusta aprender sobre los temas mencionados anteriormente o sobre nuevas tecnologías.`,
 					title: "Sobre mí",
 					tech: "Stack tecnológico",
 					skills: "Habilidades blandas",

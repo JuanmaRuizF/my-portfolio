@@ -1,51 +1,36 @@
 {
-    "Data": [{
-            "type": "Education",
-            "colors": "rgb(33, 150, 243)",
-            "date": "2021",
-            "title": "Finished University",
-            "subtitle": "University of Las Palmas de Gran Canaria",
-            "description": "Finished my Computer Science degree with intensification in Information Technologies. My end of degree project was graded 9.7/10 with honors."
-        },
-        {
-            "type": "Experience",
-            "colors": "rgb(199, 125, 28)",
-            "date": "2020",
-            "title": "Internship",
-            "subtitle": "Secret Source",
-            "description": "I did my university internship in Secret Source, where I learnt technologies such as Sass and React working in a project for a customer in the UK. We worked in a SCRUM environment."
-        },
-        {
-            "type": "Education",
-            "colors": "rgb(33, 150, 243)",
-            "date": "2019-2020",
-            "title": "ERASMUS",
-            "subtitle": "AGH University of Science and Technology",
-            "description": "Studied the third year of my degree in Kraków, Poland as part of the ERASMUS program."
-        },
-        {
-            "type": "Education",
-            "colors": "rgb(33, 150, 243)",
-            "date": "2017",
-            "title": "Started University",
-            "subtitle": "University of Las Palmas de Gran Canaria",
-            "description": "Started my degree in Computer Science."
-        },
-        {
-            "type": "Education",
-            "colors": "rgb(33, 150, 243)",
-            "date": "2015-2017",
-            "title": "A Levels",
-            "subtitle": "IES Profesor Juan Pulido Castro",
-            "description": "Finished my A-Level studies in the scientific and technological branch."
-        },
-        {
-            "type": "Education",
-            "colors": "rgb(33, 150, 243)",
-            "date": "2005-2015",
-            "title": "Compulsory Education",
-            "subtitle": "British School of Gran Canaria",
-            "description": "Studied here all my compulsory education, from Year 1 to Year 11, including the IGCSE."
-        }
-    ]
+	"Data": [
+		{
+			"type": "Experience",
+			"colors": "rgb(199, 125, 28)",
+			"date": "July 2022 - now",
+			"title": "Software Developer",
+			"subtitle": "Arup (Madrid office)",
+			"description": "Software developer position with TypeScript, React as frontend tech stack and NodeJS, PostgreSQL, Knex and Docker as backend stack."
+		},
+		{
+			"type": "Experience",
+			"colors": "rgb(199, 125, 28)",
+			"date": "2020",
+			"title": "Internship",
+			"subtitle": "Secret Source",
+			"description": "I did my university internship in Secret Source, where I used technologies such as Sass and React working in a project for a customer in the UK. We worked in a SCRUM environment."
+		},
+		{
+			"type": "Education",
+			"colors": "rgb(33, 150, 243)",
+			"date": "2019-2020",
+			"title": "ERASMUS",
+			"subtitle": "AGH University of Science and Technology",
+			"description": "Studied the third year of my degree in Kraków, Poland as part of the ERASMUS program."
+		},
+		{
+			"type": "Education",
+			"colors": "rgb(33, 150, 243)",
+			"date": "2017-2021",
+			"title": "Computer Science",
+			"subtitle": "University of Las Palmas de Gran Canaria",
+			"description": "Computer Science Degree with intensification in Information Technologies. End of degree project graded 9.7/10 with honors."
+		}
+	]
 }
