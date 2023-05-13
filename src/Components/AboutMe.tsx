@@ -105,20 +105,48 @@ const AboutMe: React.FC<IProps> = (props) => {
 				<h3 id="Skills">{translations.tech}</h3>
 				<Row className="firstRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						{/* <DiReact size="4em"></DiReact> */}
 						<Image src="/my-portfolio/Images/Icons/React.png" alt="React" height="64" width="64"></Image>
 						<div>React</div>
+					</Col>
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/typescript.png" alt="typescript" height="64" width="64"></Image>
+						<div>TypeScript</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
 						<Image src="/my-portfolio//Images/Icons/python.png" alt="python" height="64" width="64"></Image>
 						<div>Python</div>
 					</Col>
+				</Row>
+
+				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Git.png" alt="git" height="64" width="64"></Image>
-						<div>Git</div>
+						<Image src="/my-portfolio//Images/Icons/redux.png" alt="redux" height="64" width="64"></Image>
+						<div>Redux</div>
+					</Col>
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/nodejs.png" alt="nodejs" height="64" width="64"></Image>
+						<div>NodeJS</div>
+					</Col>
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/JavaScript.png" alt="JavaScript" height="64" width="64"></Image>
+						<div>JavaScript</div>
 					</Col>
 				</Row>
-				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/Java.png" alt="Java" height="64" width="64"></Image>
+						<div>Java</div>
+					</Col>
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/postgresql.png" alt="potgresql" height="64" width="64"></Image>
+						<div>PostgreSQL</div>
+					</Col>
+					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
+						<Image src="/my-portfolio//Images/Icons/docker.png" alt="Docker" height="64" width="64"></Image>
+						<div>Docker</div>
+					</Col>
+				</Row>
+				<Row className="lastRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
 						<Image src="/my-portfolio//Images/Icons/HTML.png" alt="HTML" height="64" width="64"></Image>
 						<div>HTML</div>
@@ -128,36 +156,8 @@ const AboutMe: React.FC<IProps> = (props) => {
 						<div>CSS</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/JavaScript.png" alt="JavaScript" height="64" width="64"></Image>
-						<div>JavaScript</div>
-					</Col>
-				</Row>
-				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Angular.png" alt="Angular" height="64" width="64"></Image>
-						<div>Angular</div>
-					</Col>
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Bootstrap.svg" alt="Bootstrap" height="64" width="64"></Image>
-						<div>Bootstrap</div>
-					</Col>
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/RubyOnRails.png" alt="RubyOnRails" height="64" width="64"></Image>
-						<div>RubyOnRails</div>
-					</Col>
-				</Row>
-				<Row className="lastRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/C++.png" alt="C++" height="64" width="64"></Image>
-						<div>C++</div>
-					</Col>
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Java.png" alt="Java" height="64" width="64"></Image>
-						<div>Java</div>
-					</Col>
-					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/SQL.png" alt="SQL" height="64" width="64"></Image>
-						<div>SQL</div>
+						<Image src="/my-portfolio//Images/Icons/Git.png" alt="git" height="64" width="64"></Image>
+						<div>Git</div>
 					</Col>
 				</Row>
 			</div>
