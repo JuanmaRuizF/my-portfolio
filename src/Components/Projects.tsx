@@ -1,7 +1,7 @@
 import "../Styles/Projects.css";
 import { useState } from "react";
 import { FormControl, FormControlLabel, RadioGroup, Radio } from "@material-ui/core";
-import ProjectsMenu from "./ProjectsMenu";
+import ProjectsMenu from "./ProjectsMenu/ProjectsMenu";
 import { IProps } from "../interfaces/commonComponentProps";
 
 type radioTypes = "Both" | "Education" | "Experience";

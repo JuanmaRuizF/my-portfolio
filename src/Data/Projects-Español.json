@@ -1,75 +1,146 @@
 {
-    "Data": [{
-            "type": ["Web", "DataScience"],
-            "title": "Predicciones en tiempo real para el tráfico en Nueva York.",
-            "short_description": "Generación de predicciones en tiempo real sobre el estado del tráfico en Nueva York y visualización de ellas en una página web.",
-            "long_description": "Este fue mi proyecto de fin de título. Contiene 2 módulos: El primero es el encargado de crear modelos predictivos utilizando los datos históricos de tráfico, calidad del aire y clima de Nueva York. Una vez que se han creado los modelos, el módulo recopila los nuevos valores para esas fuentes de datos en tiempo real y los usa para hacer predicciones. Las predicciones se guardan en un archivo JSON al que accede el segundo módulo. A medida que lleguen nuevos datos, el módulo comparará los resultados de las predicciones y los valores reales. Se utiliza para reentrenar en tiempo real los modelos. Las predicciones se realizan para cada una de las 26 calles donde se recopilan los datos (solo se recopilan datos para el distrito de Manhattan). El segundo módulo es una página web donde se representan los datos en gráficos según la hora o calle seleccionada. También muestra una comparación entre los valores reales y las predicciones. A medida que el primer módulo genera y recopila nuevos datos en tiempo real, estos datos se mostrarán automáticamente en la página web.",
-            "icons": ["DiPython", "SiTensorflow", "SiJupyter", "DiReact"],
-            "image": "NY-Traffic-Prediction/NY-Traffic-Prediction.JPG",
-            "id": 0,
-            "extra_images": ["NY-Traffic-Prediction/Img1.png", "NY-Traffic-Prediction/Img2.png", "NY-Traffic-Prediction/Img3.png", "NY-Traffic-Prediction/Img4.png", "NY-Traffic-Prediction/Img5.png"],
-            "github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
-            "deploy_url": [""],
-            "offset": "100",
-            "list_technologies": ["Python (Numpy, Pandas, Threading, Matplotlib).", "Tensorflow.", "React.", "Jupyter Lab.", "Bootstrap."],
-            "project_characteristics": ["Generación de modelos predictivos para cada una de las calles donde se recolectan datos.", "Generación de predicciones en tiempo real a medida que llegan nuevos datos.", "Reentreno de los modelos en tiempo real con los datos nuevos.", "Visualización general del tráfico para la hora actual en Nueva York.", "Visualización del tráfico por hora.", "Visualización del tráfico (valores reales y predicciones) para la calle seleccionada.", "Visualización de la comparación entre los valores reales y las predicciones generadas por los modelos.", "Visualiza el error entre los valores reales y las predicciones para cada hora en cada una de las calles."]
-        }, {
-            "type": ["Web"],
-            "title": "Classic Fun Games",
-            "short_description": "Página web que implementa varios juegos clásicos.",
-            "long_description": "Esta página contiene la implementacion de varios juegos clásicos como sudoku, juego de memoria o conecta 4. Algunos juegos permiten seleccionar dificultad y otras opciones como resolver el sudoku automáticamente o validar el input del usuario.",
-            "icons": ["DiReact", "SiReactrouter"],
-            "image": "Classic-Fun-Games/CFG.PNG",
-            "id": 1,
-            "extra_images": ["Classic-Fun-Games/Img1.PNG", "Classic-Fun-Games/Img2.PNG", "Classic-Fun-Games/Img3.PNG", "Classic-Fun-Games/Img4.PNG", "Classic-Fun-Games/Img5.PNG"],
-            "github_url": "https://github.com/JuanmaRuizF/classic-fun-games",
-            "deploy_url": ["https://juanmaruizf.github.io/classic-fun-games/"],
-            "offset": "200",
-            "list_technologies": ["React", "React Router"],
-            "project_characteristics": ["Juega varias implementaciones de algunos de de los mejores juegos clásicos.", "Cada juego contiene opciones únicas como pueden ser la selección de dificultad, validar el estado del juego, empezar una nueva partida o resolver la partida.", "Animaciones en los juegos para mejorar la experiencia del usuario a la hora de jugar.", "El componente del footer recomienda de forma aleatoria algunos de los otros juegos implementados en la página web."]
-        }, {
-            "type": ["Web"],
-            "title": "Dulce Capricho",
-            "short_description": "Página web para una dulcería.",
-            "long_description": "Una página web creada para una dulcería. Contiene una amplia variedad de páginas como encargos, eventos y muchas más. Esta página web permite al usuario seleccionar los productos disponibles y personalizar el pedido con la cantidad y sabores de cada uno de los productos. Una vez se ha seleccionado un producto, se agregará a un carrito de compra. El pedido se completará cuando el usuario complete un formulario con la información del usuario. La página web también contiene un modo de administrador en el que el administrador es capaz de editar elementos de la página web principal y visualizar los pedidos que se han hecho o los formularios de contacto.",
-            "icons": ["DiRubyRough", "DiMysql"],
-            "image": "DulceCapricho/DulceCapricho.JPG",
-            "id": 2,
-            "extra_images": ["DulceCapricho/Img1.JPG", "DulceCapricho/Img2.JPG", "DulceCapricho/Img3.JPG", "DulceCapricho/Img4.JPG", "DulceCapricho/Img5.JPG", "DulceCapricho/Img6.JPG", "DulceCapricho/Img7.JPG"],
-            "github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
-            "deploy_url": [""],
-            "offset": "200",
-            "list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
-            "project_characteristics": ["Seleccionar productos y añadirlos a un carrito de compra en la página de 'encargos'.", "Acceder y enviar el pedido tras completar el formulario.", "Lado servidor en el que el administrador puede cambiar y editar componentes como las imágenes a mostrar en la página web.", "El administrador puede visualizar también en el lado servidor los pedidos y los mensajes de contacto que han enviado los clientes."]
-        }, {
-            "type": ["Web"],
-            "title": "Location Advisor",
-            "short_description": "Mostrar los mejores sitios para visitar/ir en la zona en la que estás o cualquier otra localización que quieras.",
-            "long_description": "Página web donde puedes seleccionar y filtrar los mejores sitios locales de la zona que desees. Puedes seleccionar el número de elementos a devolver, el radio máximo de elementos a mostrar, como ordenar los elementos y la localización que se desee. Se pueden añadir y eliminar elementos a favoritos y verlos en una página aparte con todos sus detalles. Los datos son obtenidos de varios 'endpoints' de la API de Foursquare.",
-            "icons": ["DiReact", "SiReactrouter", "SiLeaflet"],
-            "image": "Location-Advisor/Img1.PNG",
-            "id": 3,
-            "extra_images": ["Location-Advisor/Img1.PNG", "Location-Advisor/Img2.PNG", "Location-Advisor/Img3.PNG", "Location-Advisor/Img4.PNG"],
-            "github_url": "https://github.com/JuanmaRuizF/location-advisor",
-            "deploy_url": ["https://juanmaruizf.github.io/location-advisor/#/"],
-            "offset": "300",
-            "list_technologies": ["React", "React Router", "Leaflet"],
-            "project_characteristics": ["Pedir permiso para acceder a la geolocalización del usuario y poder mostrarle los sitios más cercanos que tenga.", "Poder escoger el número de elementos a mostrar, cómo deberían ser ordenados, la localización y el radio de búsqueda.", "Ver el listado con de los elementos buscados con sus detalles (en los detalles se incluye la localización exacta del sitio en un mapa de Leaflet, imágenes y más información relevante acerca del sitio).", "Añadir sitios a favoritos y visualizar los elementos favoritos en una página aparte.", "Validación en el frontend para comprobar si todos los campos han sido rellenados."]
-        },
-        {
-            "type": ["Web"],
-            "title": "ToDo List",
-            "short_description": "Una ToDoList creada utilizando AngularJS",
-            "long_description": "Un proyecto donde puedes crear, modificar, ver y borrar tareas. Estas tareas contienen información sobre la fecha en que se creó la tarea, la fecha de vencimiento, el nombre y la descripción de la tarea.",
-            "icons": ["DiAngularSimple", "SiFirebase"],
-            "image": "ToDoList/ToDoList.JPG",
-            "id": 4,
-            "offset": "400",
-            "extra_images": ["ToDoList/Img1.JPG", "ToDoList/Img2.JPG", "ToDoList/Img3.JPG", "ToDoList/Img4.JPG", "ToDoList/Img5.JPG"],
-            "github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
-            "deploy_url": ["https://daw2-todolist.web.app/list"],
-            "list_technologies": ["Angular.", "Firebase.", "Angular Material UI."],
-            "project_characteristics": ["CRUD de las tareas (Create, Read, Update, Delete).", "Las tareas cambian de color si ya ha pasado la fecha límite puesta.", "Cambiar el estado de cada tarea.", "Ver un historial con todas las tareas finalizadas."]
-        }
-    ]
+	"Data": [
+		{
+			"type": ["Web", "DataScience"],
+			"title": "Predicciones en tiempo real para el tráfico en Nueva York.",
+			"short_description": "Generación de predicciones en tiempo real sobre el estado del tráfico en Nueva York y visualización de ellas en una página web.",
+			"long_description": "Este fue mi proyecto de fin de título. Contiene 2 módulos: El primero es el encargado de crear modelos predictivos utilizando los datos históricos de tráfico, calidad del aire y clima de Nueva York. Una vez que se han creado los modelos, el módulo recopila los nuevos valores para esas fuentes de datos en tiempo real y los usa para hacer predicciones. Las predicciones se guardan en un archivo JSON al que accede el segundo módulo. A medida que lleguen nuevos datos, el módulo comparará los resultados de las predicciones y los valores reales. Se utiliza para reentrenar en tiempo real los modelos. Las predicciones se realizan para cada una de las 26 calles donde se recopilan los datos (solo se recopilan datos para el distrito de Manhattan). El segundo módulo es una página web donde se representan los datos en gráficos según la hora o calle seleccionada. También muestra una comparación entre los valores reales y las predicciones. A medida que el primer módulo genera y recopila nuevos datos en tiempo real, estos datos se mostrarán automáticamente en la página web.",
+			"icons": ["DiPython", "SiTensorflow", "SiJupyter", "DiReact"],
+			"image": "NY-Traffic-Prediction/NY-Traffic-Prediction.JPG",
+			"id": 0,
+			"extra_images": [
+				"NY-Traffic-Prediction/Img1.png",
+				"NY-Traffic-Prediction/Img2.png",
+				"NY-Traffic-Prediction/Img3.png",
+				"NY-Traffic-Prediction/Img4.png",
+				"NY-Traffic-Prediction/Img5.png"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
+			"deploy_url": "",
+			"offset": "100",
+			"list_technologies": [
+				"Python (Numpy, Pandas, Threading, Matplotlib).",
+				"Tensorflow.",
+				"React.",
+				"Jupyter Lab.",
+				"Bootstrap."
+			],
+			"project_characteristics": [
+				"Generación de modelos predictivos para cada una de las calles donde se recolectan datos.",
+				"Generación de predicciones en tiempo real a medida que llegan nuevos datos.",
+				"Reentreno de los modelos en tiempo real con los datos nuevos.",
+				"Visualización general del tráfico para la hora actual en Nueva York.",
+				"Visualización del tráfico por hora.",
+				"Visualización del tráfico (valores reales y predicciones) para la calle seleccionada.",
+				"Visualización de la comparación entre los valores reales y las predicciones generadas por los modelos.",
+				"Visualiza el error entre los valores reales y las predicciones para cada hora en cada una de las calles."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Classic Fun Games",
+			"short_description": "Página web que implementa varios juegos clásicos.",
+			"long_description": "Esta página contiene la implementacion de varios juegos clásicos como sudoku, juego de memoria o conecta 4. Algunos juegos permiten seleccionar dificultad y otras opciones como resolver el sudoku automáticamente o validar el input del usuario.",
+			"icons": ["DiReact", "SiReactrouter"],
+			"image": "Classic-Fun-Games/CFG.PNG",
+			"id": 1,
+			"extra_images": [
+				"Classic-Fun-Games/Img1.PNG",
+				"Classic-Fun-Games/Img2.PNG",
+				"Classic-Fun-Games/Img3.PNG",
+				"Classic-Fun-Games/Img4.PNG",
+				"Classic-Fun-Games/Img5.PNG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/classic-fun-games",
+			"deploy_url": "https://juanmaruizf.github.io/classic-fun-games/",
+			"offset": "200",
+			"list_technologies": ["React", "React Router"],
+			"project_characteristics": [
+				"Juega varias implementaciones de algunos de de los mejores juegos clásicos.",
+				"Cada juego contiene opciones únicas como pueden ser la selección de dificultad, validar el estado del juego, empezar una nueva partida o resolver la partida.",
+				"Animaciones en los juegos para mejorar la experiencia del usuario a la hora de jugar.",
+				"El componente del footer recomienda de forma aleatoria algunos de los otros juegos implementados en la página web."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Dulce Capricho",
+			"short_description": "Página web para una dulcería.",
+			"long_description": "Una página web creada para una dulcería. Contiene una amplia variedad de páginas como encargos, eventos y muchas más. Esta página web permite al usuario seleccionar los productos disponibles y personalizar el pedido con la cantidad y sabores de cada uno de los productos. Una vez se ha seleccionado un producto, se agregará a un carrito de compra. El pedido se completará cuando el usuario complete un formulario con la información del usuario. La página web también contiene un modo de administrador en el que el administrador es capaz de editar elementos de la página web principal y visualizar los pedidos que se han hecho o los formularios de contacto.",
+			"icons": ["DiRubyRough", "DiMysql"],
+			"image": "DulceCapricho/DulceCapricho.JPG",
+			"id": 2,
+			"extra_images": [
+				"DulceCapricho/Img1.JPG",
+				"DulceCapricho/Img2.JPG",
+				"DulceCapricho/Img3.JPG",
+				"DulceCapricho/Img4.JPG",
+				"DulceCapricho/Img5.JPG",
+				"DulceCapricho/Img6.JPG",
+				"DulceCapricho/Img7.JPG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
+			"deploy_url": "",
+			"offset": "200",
+			"list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
+			"project_characteristics": [
+				"Seleccionar productos y añadirlos a un carrito de compra en la página de 'encargos'.",
+				"Acceder y enviar el pedido tras completar el formulario.",
+				"Lado servidor en el que el administrador puede cambiar y editar componentes como las imágenes a mostrar en la página web.",
+				"El administrador puede visualizar también en el lado servidor los pedidos y los mensajes de contacto que han enviado los clientes."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Location Advisor",
+			"short_description": "Mostrar los mejores sitios para visitar/ir en la zona en la que estás o cualquier otra localización que quieras.",
+			"long_description": "Página web donde puedes seleccionar y filtrar los mejores sitios locales de la zona que desees. Puedes seleccionar el número de elementos a devolver, el radio máximo de elementos a mostrar, como ordenar los elementos y la localización que se desee. Se pueden añadir y eliminar elementos a favoritos y verlos en una página aparte con todos sus detalles. Los datos son obtenidos de varios 'endpoints' de la API de Foursquare.",
+			"icons": ["DiReact", "SiReactrouter", "SiLeaflet"],
+			"image": "Location-Advisor/Img1.PNG",
+			"id": 3,
+			"extra_images": [
+				"Location-Advisor/Img1.PNG",
+				"Location-Advisor/Img2.PNG",
+				"Location-Advisor/Img3.PNG",
+				"Location-Advisor/Img4.PNG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/location-advisor",
+			"deploy_url": "https://juanmaruizf.github.io/location-advisor/#/",
+			"offset": "300",
+			"list_technologies": ["React", "React Router", "Leaflet"],
+			"project_characteristics": [
+				"Pedir permiso para acceder a la geolocalización del usuario y poder mostrarle los sitios más cercanos que tenga.",
+				"Poder escoger el número de elementos a mostrar, cómo deberían ser ordenados, la localización y el radio de búsqueda.",
+				"Ver el listado con de los elementos buscados con sus detalles (en los detalles se incluye la localización exacta del sitio en un mapa de Leaflet, imágenes y más información relevante acerca del sitio).",
+				"Añadir sitios a favoritos y visualizar los elementos favoritos en una página aparte.",
+				"Validación en el frontend para comprobar si todos los campos han sido rellenados."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "ToDo List",
+			"short_description": "Una ToDoList creada utilizando AngularJS",
+			"long_description": "Un proyecto donde puedes crear, modificar, ver y borrar tareas. Estas tareas contienen información sobre la fecha en que se creó la tarea, la fecha de vencimiento, el nombre y la descripción de la tarea.",
+			"icons": ["DiAngularSimple", "SiFirebase"],
+			"image": "ToDoList/ToDoList.JPG",
+			"id": 4,
+			"offset": "400",
+			"extra_images": [
+				"ToDoList/Img1.JPG",
+				"ToDoList/Img2.JPG",
+				"ToDoList/Img3.JPG",
+				"ToDoList/Img4.JPG",
+				"ToDoList/Img5.JPG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
+			"deploy_url": "https://daw2-todolist.web.app/list",
+			"list_technologies": ["Angular.", "Firebase.", "Angular Material UI."],
+			"project_characteristics": [
+				"CRUD de las tareas (Create, Read, Update, Delete).",
+				"Las tareas cambian de color si ya ha pasado la fecha límite puesta.",
+				"Cambiar el estado de cada tarea.",
+				"Ver un historial con todas las tareas finalizadas."
+			]
+		}
+	]
 }
