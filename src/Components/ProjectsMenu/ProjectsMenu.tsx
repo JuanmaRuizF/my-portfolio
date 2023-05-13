@@ -61,17 +61,7 @@ const ProjectsMenu: React.FC<IProps> = (props) => {
 					<Grid container spacing={6}>
 						{dataToMap.Data.map((element) => {
 							return (
-								<Grid
-									item
-									md={6}
-									sm={12}
-									xs={12}
-									lg={4}
-									xl={4}
-									// data-aos="fade-down"
-									// data-aos-offset={element["offset"]}
-									// data-aos-duration="1000"
-								>
+								<Grid item md={6} sm={12} xs={12} lg={4} xl={4}>
 									<Card
 										className={classes.root}
 										onClick={() => {
@@ -111,17 +101,7 @@ const ProjectsMenu: React.FC<IProps> = (props) => {
 						{dataEnglish.Data.map(
 							(element) =>
 								element["type"].includes(props.selectedRadio) && (
-									<Grid
-										item
-										md={6}
-										sm={12}
-										xs={12}
-										lg={4}
-										xl={4}
-										// data-aos="fade-down"
-										// data-aos-offset={element["offset"]}
-										// data-aos-duration="1000"
-									>
+									<Grid item md={6} sm={12} xs={12} lg={4} xl={4}>
 										<Card
 											className={classes.root}
 											onClick={() => {
