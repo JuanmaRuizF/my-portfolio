@@ -102,6 +102,7 @@ const AboutMe: React.FC<IProps> = (props) => {
 						</li>
 					</ul>
 				</div>
+
 				<h3 id="Skills">{translations.tech}</h3>
 				<Row className="firstRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
