@@ -121,7 +121,7 @@ const AboutMe: React.FC<IProps> = (props) => {
 
 				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/redux.png" alt="redux" height="64" width="64"></Image>
+						<Image src="/my-portfolio//Images/Icons/Redux.png" alt="redux" height="64" width="64"></Image>
 						<div>Redux</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
