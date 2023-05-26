@@ -34,7 +34,7 @@ const App: React.FC = () => {
 	const size = useWindowSize();
 	return (
 		<div className={size["width"] && size["width"] > 1800 ? "" : "mobile"}>
-			<Menu language={language} />
+			{size["width"] && size["width"] > 1800 && <Menu language={language} />}
 			<HomePage language={language} setLanguage={setLanguage} />
 			<AboutMe language={language} />
 			<EducationExperience language={language} />
