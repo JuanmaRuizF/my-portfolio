@@ -68,7 +68,7 @@ const ProjectsMenu: React.FC<IProps> = (props) => {
 											showModal(element["id"]);
 										}}
 									>
-										<CardMedia component="img" height="220" image={"/my-portfolio/Images/" + element["image"]} />
+										<CardMedia component="img" height="220" image={"/Images/" + element["image"]} />
 										<CardContent>
 											<Typography gutterBottom variant="h5" component="h2">
 												{element["title"]}
@@ -108,7 +108,7 @@ const ProjectsMenu: React.FC<IProps> = (props) => {
 												showModal(element["id"]);
 											}}
 										>
-											<CardMedia component="img" height="220" image={"/my-portfolio/Images/" + element["image"]} />
+											<CardMedia component="img" height="220" image={"/Images/" + element["image"]} />
 											<CardContent>
 												<Typography gutterBottom variant="h5" component="h2">
 													{element["title"]}

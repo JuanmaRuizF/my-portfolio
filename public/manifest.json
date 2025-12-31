@@ -1,24 +1,25 @@
 {
-    "short_name": "Juan Manuel Ruiz Fránquiz",
-    "name": "Juan Manuel Ruiz Portfolio",
-    "icons": [{
-            "src": "/my-portfolio/logo.jpg",
-            "sizes": "64x64 32x32 24x24 16x16",
-            "type": "image/x-icon"
-        },
-        {
-            "src": "/my-portfolio/logo.jpg",
-            "type": "image/png",
-            "sizes": "192x192"
-        },
-        {
-            "src": "/my-portfolio/logo.jpg",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ],
-    "start_url": ".",
-    "display": "standalone",
-    "theme_color": "#000000",
-    "background_color": "#ffffff"
+	"short_name": "Juan Manuel Ruiz Fránquiz",
+	"name": "Juan Manuel Ruiz Portfolio",
+	"icons": [
+		{
+			"src": "/logo.jpg",
+			"sizes": "64x64 32x32 24x24 16x16",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "/logo.jpg",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/logo.jpg",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": ".",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
 }

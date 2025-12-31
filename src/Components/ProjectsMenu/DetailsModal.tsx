@@ -58,7 +58,7 @@ export const DetailsModal: React.FC<IProps> = (props) => {
 											<Carousel.Item style={{ height: "500px" }}>
 												<img
 													className="d-block w-100 h-100"
-													src={"/my-portfolio/Images/" + i}
+													src={"/Images/" + i}
 													alt="First slide"
 													style={{ objectFit: "contain" }}
 												/>

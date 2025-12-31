@@ -45,7 +45,7 @@ const AboutMe: React.FC<IProps> = (props) => {
 				<Row>
 					<Col md={6} sm={12} xs={12} lg={4} xl={4}>
 						<div className="my-image">
-							<Image src="/my-portfolio/foto-mia.PNG" roundedCircle width="200" height="200" />
+							<Image src="/foto-mia.PNG" roundedCircle width="200" height="200" />
 						</div>
 					</Col>
 					<Col md={6} sm={12} xs={12} lg={8} xl={8}>
@@ -106,58 +106,58 @@ const AboutMe: React.FC<IProps> = (props) => {
 				<h3 id="Skills">{translations.tech}</h3>
 				<Row className="firstRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio/Images/Icons/React.png" alt="React" height="64" width="64"></Image>
+						<Image src="/Images/Icons/React.png" alt="React" height="64" width="64"></Image>
 						<div>React</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/typescript.png" alt="typescript" height="64" width="64"></Image>
+						<Image src="//Images/Icons/typescript.png" alt="typescript" height="64" width="64"></Image>
 						<div>TypeScript</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/python.png" alt="python" height="64" width="64"></Image>
+						<Image src="//Images/Icons/python.png" alt="python" height="64" width="64"></Image>
 						<div>Python</div>
 					</Col>
 				</Row>
 
 				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Redux.png" alt="redux" height="64" width="64"></Image>
+						<Image src="//Images/Icons/Redux.png" alt="redux" height="64" width="64"></Image>
 						<div>Redux</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/nodejs.png" alt="nodejs" height="64" width="64"></Image>
+						<Image src="//Images/Icons/nodejs.png" alt="nodejs" height="64" width="64"></Image>
 						<div>NodeJS</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/JavaScript.png" alt="JavaScript" height="64" width="64"></Image>
+						<Image src="//Images/Icons/JavaScript.png" alt="JavaScript" height="64" width="64"></Image>
 						<div>JavaScript</div>
 					</Col>
 				</Row>
 				<Row className="rowSeparation" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Java.png" alt="Java" height="64" width="64"></Image>
+						<Image src="//Images/Icons/Java.png" alt="Java" height="64" width="64"></Image>
 						<div>Java</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/postgresql.png" alt="potgresql" height="64" width="64"></Image>
+						<Image src="//Images/Icons/postgresql.png" alt="potgresql" height="64" width="64"></Image>
 						<div>PostgreSQL</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/docker.png" alt="Docker" height="64" width="64"></Image>
+						<Image src="//Images/Icons/docker.png" alt="Docker" height="64" width="64"></Image>
 						<div>Docker</div>
 					</Col>
 				</Row>
 				<Row className="lastRow" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000">
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/HTML.png" alt="HTML" height="64" width="64"></Image>
+						<Image src="//Images/Icons/HTML.png" alt="HTML" height="64" width="64"></Image>
 						<div>HTML</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/CSS.png" alt="CSS" height="64" width="64"></Image>
+						<Image src="//Images/Icons/CSS.png" alt="CSS" height="64" width="64"></Image>
 						<div>CSS</div>
 					</Col>
 					<Col md={4} sm={4} xs={4} lg={4} xl={4} className="skillComponent">
-						<Image src="/my-portfolio//Images/Icons/Git.png" alt="git" height="64" width="64"></Image>
+						<Image src="//Images/Icons/Git.png" alt="git" height="64" width="64"></Image>
 						<div>Git</div>
 					</Col>
 				</Row>
