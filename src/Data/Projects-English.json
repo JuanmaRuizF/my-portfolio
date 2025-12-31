@@ -1,0 +1,146 @@
+{
+	"Data": [
+		{
+			"type": ["Web", "DataScience"],
+			"title": "New York realtime traffic prediction",
+			"short_description": "Create predictions about the status of traffic and visualize them in a webpage in realtime",
+			"long_description": "This was my end of degree project. It contains 2 modules: The first one is the one in charge of creating predictive models using New York's historical traffic, air quality and climate data. Once the models have been created, the module collects the new values for those data sources in realtime and uses them to make predictions. The predictions are saved into a JSON file that is accessed by the second module. As new data arrives, the module will compare the results from the predictions and the real values. This is used to train in realtime the models. The predictions are made for each of the 26 streets where data is collected (data only collected for the Manhattan district). The second module is a webpage where the data is represented in graphs according to the time or street selected. It also shows a comparison between the real values and the predictions. As the first module generates and collects new data in realtime, this data will be automatically displayed to the webpage.",
+			"icons": ["DiPython", "SiTensorflow", "SiJupyter", "DiReact"],
+			"image": "NY-Traffic-Prediction/NY-Traffic-Prediction.JPG",
+			"id": 0,
+			"extra_images": [
+				"NY-Traffic-Prediction/Img1.png",
+				"NY-Traffic-Prediction/Img2.png",
+				"NY-Traffic-Prediction/Img3.png",
+				"NY-Traffic-Prediction/Img4.png",
+				"NY-Traffic-Prediction/Img5.png"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/NY-Traffic-Prediction",
+			"deploy_url": "",
+			"offset": "100",
+			"list_technologies": [
+				"Python (Numpy, Pandas, Threading, Matplotlib).",
+				"Tensorflow.",
+				"React.",
+				"Jupyter Lab.",
+				"Bootstrap."
+			],
+			"project_characteristics": [
+				"Generate predictive models for each of the streets where data is collected.",
+				"Generate predictions in realtime as new data arrives.",
+				"Retrain the models in realtime with the new data.",
+				"Visualize overall status of traffic.",
+				"Visualize traffic in a certain hour.",
+				"Visualize traffic (real values and predictions) for the selected street.",
+				"Visualize the comparison between the prediction values and the real ones.",
+				"Visualize the error between real and prediction values for each hour in a certain street."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Classic Fun Games",
+			"short_description": "Website with implementation of several classic games.",
+			"long_description": "This webpage contains the implementation of several classic games such as Sudoku, Connect 4 or memory game. Some games allow for difficulty selection and other options such as solving the game automatically in the Sudoku or validating the user's answer.",
+			"icons": ["DiReact", "SiReactrouter"],
+			"image": "Classic-Fun-Games/CFG.PNG",
+			"id": 1,
+			"extra_images": [
+				"Classic-Fun-Games/Img1.PNG",
+				"Classic-Fun-Games/Img2.PNG",
+				"Classic-Fun-Games/Img3.PNG",
+				"Classic-Fun-Games/Img4.PNG",
+				"Classic-Fun-Games/Img5.PNG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/classic-fun-games",
+			"deploy_url": "https://juanmaruizf.github.io/classic-fun-games/",
+			"offset": "200",
+			"list_technologies": ["React", "React Router"],
+			"project_characteristics": [
+				"Play several implementations of the best classic games",
+				"Each game contains unique options such as difficulty selection, validation, new game or solve game",
+				"Game animations to improve user experience while playing the game",
+				"Footer component that randomly recommends other implemented games from the website."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Dulce Capricho",
+			"short_description": "A website for a confectionery shop",
+			"long_description": "A webpage created for a confectionery shop. It contains a wide variety of pages such as 'encargos' (orders), 'eventos' (events) and many more. This webpage allows the user to select the products available and customize the order with the quantity and flavours of each of the products. Once a product has been selected, it will be added to a shopping cart. The order will be completed when the user fills in a form with user information. The webpage also contains an administrator mode in which the administrator is capable of editing elements of the main webpage and visualizing the orders or the contact forms.",
+			"icons": ["DiRubyRough", "DiMysql"],
+			"image": "DulceCapricho/DulceCapricho.JPG",
+			"id": 2,
+			"extra_images": [
+				"DulceCapricho/Img1.JPG",
+				"DulceCapricho/Img2.JPG",
+				"DulceCapricho/Img3.JPG",
+				"DulceCapricho/Img4.JPG",
+				"DulceCapricho/Img5.JPG",
+				"DulceCapricho/Img6.JPG",
+				"DulceCapricho/Img7.JPG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/MDA-Proyecto",
+			"deploy_url": "",
+			"offset": "200",
+			"list_technologies": ["Ruby on Rails.", "MySQL.", "Bootstrap."],
+			"project_characteristics": [
+				"Select products and add them to the basket in the 'encargos' page.",
+				"Access and send the order after completing the form.",
+				"Server side where the administrator can change and edit components such as the images to display in the webpage.",
+				"Administrator can also visualize the orders and the contact messages sent within the server side."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "Location Advisor",
+			"short_description": "Display the best places to visit/go near the location you are at or any location you choose.",
+			"long_description": "Webpage where you can select and query the best local places around the location provided. You can select the number of elements to return, the maximum radious of places to return, how the elements should be sorted and the location. You can favourite/unfavourite elements and view them also with their details. The data is obtained from several of the Foursquare API endpoints.",
+			"icons": ["DiReact", "SiReactrouter", "SiLeaflet"],
+			"image": "Location-Advisor/Img1.PNG",
+			"id": 3,
+			"extra_images": [
+				"Location-Advisor/Img1.PNG",
+				"Location-Advisor/Img2.PNG",
+				"Location-Advisor/Img3.PNG",
+				"Location-Advisor/Img4.PNG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/location-advisor",
+			"deploy_url": "https://juanmaruizf.github.io/location-advisor/#/",
+			"offset": "300",
+			"list_technologies": ["React", "React Router", "Leaflet"],
+			"project_characteristics": [
+				"Enable the webpage to access your current location and to view the closest places.",
+				"Select the number of elements to display, how they should be sorted, location and the radious of search.",
+				"View the list of searched elements with their details (includes a Leaflet map with the exact location of the place, pictures and other relevant information).",
+				"Favourite any of the places and view them in a separate page.",
+				"Frontend query validation to check if all fields are completed before doing the query."
+			]
+		},
+		{
+			"type": ["Web"],
+			"title": "ToDo List",
+			"short_description": "ToDoList implemented using AngularJS",
+			"long_description": "A project where you can create, modify, see and delete tasks. This tasks contain information about the date when the task was created, the due date, the task name and the description of the task.",
+			"icons": ["DiAngularSimple", "SiFirebase"],
+			"image": "ToDoList/ToDoList.JPG",
+			"id": 4,
+			"offset": "400",
+			"extra_images": [
+				"ToDoList/Img1.JPG",
+				"ToDoList/Img2.JPG",
+				"ToDoList/Img3.JPG",
+				"ToDoList/Img4.JPG",
+				"ToDoList/Img5.JPG"
+			],
+			"github_url": "https://github.com/JuanmaRuizF/ToDoList-Angular",
+			"deploy_url": "https://daw2-todolist.web.app/list",
+			"list_technologies": ["Angular.", "Firebase.", "Angular Material UI."],
+			"project_characteristics": [
+				"CRUD of tasks (Create, Read, Update, Delete).",
+				"Task changes color when the due date has passed.",
+				"Change the status of each task.",
+				"See a historical with all the finished tasks."
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+    th,
+    td {
+        padding-right: 20px;
+    }
+    
+    a.otherButton {
+        color: #ffffff;
+    }
+    
+    a:visited {
+        color: #ffffff;
+    }
+    
+    .emailButton {
+        cursor: pointer;
+    }
+    
+    .spanPrueba {
+        margin-right: 5%;
+        margin-top: 16%;
+        padding-top: 10%;
+    }
+    
+    .DownloadButton {
+        text-decoration: none;
+    }
+    
+    .minombre {
+        font-size: 250%;
+    }
+    
+    .downloadCV {
+        margin-top: 1%;
+    }
+    
+    .botonCV {
+        font-size: 1.5em;
+    }
+    
+    @media (max-width: 800px) {
+        .minombre {
+            font-size: 2em;
+            text-align: center;
+        }
+        .botonCV {
+            font-size: 1em;
+        }
+    }
